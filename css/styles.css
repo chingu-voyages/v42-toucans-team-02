@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,300;1,400&display=swap");
 
-* {
-  box-sizing: border-box;
+
+:root {
+  --header: rgb(161,98,39);
+  --hero: rgb(84,160,196);
+  --hero-title: rgb(176, 173, 178);
+  --search: rgb(84,160,196);
+  --btn-background: rgb(253,246,157);
+  --btn-text: rgb(0,0,0);
 }
