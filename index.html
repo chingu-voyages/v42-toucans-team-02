@@ -5,17 +5,174 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chuck Norris Jokes</title>
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="./images/favicon.ico"
-    />
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico" />
     <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
     <link href="./css/reset.css" type="text/css" rel="stylesheet" />
     <link href="./css/styles.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
-    <h1>Chuck Norris Joke API Project</h1>
+    <header>
+      <nav>
+        <div class="container">
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#search">Search</a></li>
+            <li><a href="#team">Our Team</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div class="description-container">
+          <h1><span>Chuck</span>Norris</h1>
+          <p>The Man<br />The Myth<br />The Legend</p>
+        </div>
+
+        <div class="image-container">
+          <figure class="chuck-container">
+            <img
+              src="./images/chuck-norris-character.png"
+              class="chuck-img animate fadeInDownImages four"
+              alt="robot image with large eyes"
+            />
+          </figure>
+        </div>
+      </section>
+
+      <section id="search">
+        <div class="search-title">
+          <h2>Search for a Joke</h2>
+        </div>
+        <div class="search-container">
+          <div class="search-left">
+            <div class="search-category" id="by-category">
+              <label for="category">Category: </label>
+              <select name="category" id="category">
+                <option value="all">all</option>
+                <option value="animal">animal</option>
+                <option value="career">career</option>
+                <option value="dev">dev</option>
+                <option value="fashion">fashion</option>
+                <option value="food">food</option>
+                <option value="history">history</option>
+                <option value="money">money</option>
+                <option value="celebrity">celebrity</option>
+                <option value="movie">movie</option>
+                <option value="music">music</option>
+                <option value="science">science</option>
+                <option value="sport">sport</option>
+                <option value="travel">travel</option>
+              </select>
+            </div>
+            <button class="search-button" id="generate">Get Joke</button>
+          </div>
+          <div class="search-right">
+            <div class="search-keyword" id="by-keyword">
+              <label for="keyword">Keyword: </label>
+              <input name="keyword" id="keyword" placeholder="keyword" />
+            </div>
+            <button class="search-button" id="generate">Get Joke</button>
+          </div>
+        </div>
+        <div class="search-bottom">
+          <p class="joke-display">
+            "Chuck Norris doesn't eat limes. He eats limestone."
+          </p>
+        </div>
+      </section>
+
+      <section id="team">
+        <div class="info-cards">
+          <h3>Our Team</h3>
+          <p>
+            This project was made by a team of volunteers to exercise agile
+            methodologies and collaborative git environment.
+          </p>
+          <div class="info-group">
+            <figure class="info-1">
+              <img src="./images/cowboy-hat.png" />
+              <figcaption class="description">
+                <p>Melissa Hernandez</p>
+                <div class="socials">
+                  <p>
+                    <a href="https://github.com/mmhernandez"
+                      ><img class="social-icon" src="./images/github.png"
+                    /></a>
+                  </p>
+                  <p>
+                    <a
+                      href="https://www.linkedin.com/in/melissa-dangelo-hernandez/"
+                      ><img class="social-icon" src="./images/linkedin.png"
+                    /></a>
+                  </p>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="info-2">
+              <img src="./images/cowboy-hat.png" alt="" />
+              <figcaption class="description">
+                <p>Lyle Trethewey</p>
+                <div class="socials">
+                  <p>
+                    <a href="https://github.com/LyleT"
+                      ><img class="social-icon" src="./images/github.png"
+                    /></a>
+                  </p>
+                  <p>
+                    <a href="https://www.linkedin.com/in/lyle-trethewey/"
+                      ><img class="social-icon" src="./images/linkedin.png"
+                    /></a>
+                  </p>
+                </div>
+              </figcaption>
+            </figure>
+
+            <figure class="info-3">
+              <img src="./images/cowboy-hat.png" alt="" />
+              <figcaption class="description">
+                <p>Gillian Trethewey</p>
+                <div class="socials">
+                  <p>
+                    <a href="https://github.com/GillianTrethewey"
+                      ><img class="social-icon" src="./images/github.png"
+                    /></a>
+                  </p>
+                  <p>
+                    <a href="https://www.linkedin.com/in/gillian-trethewey/"
+                      ><img class="social-icon" src="./images/linkedin.png"
+                    /></a>
+                  </p>
+                </div>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <p></p>
+        <p>
+          Source code is available on our team's
+          <a href="https://github.com/chingu-voyages/v42-toucans-team-02"
+            >GitHub page</a
+          >
+        </p>
+        <p>
+          The app is not created by, affiliated with, or supported by Chuck
+          Norris
+        </p>
+        <p>
+          Disclaimer: This API may produce some offensive jokes. Use at your own
+          risk.
+        </p>
+        <button onclick="scrollToTop()" id="scroll-to-top">
+          <img src="./images/top.svg" alt="" />
+        </button>
+      </div>
+    </footer>
     <script src="./js/script.js" defer></script>
   </body>
 </html>
