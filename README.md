@@ -56,8 +56,7 @@ From the repo:
 
 
 ## Contributors
-The Team |  GitHub  | LinkedIn
-:---:  |  :---:  |  :---:
-Lyle Trethewey  |  [![git hub logo](https://github.com/chingu-voyages/v42-toucans-team-02/images/github.png "Lyle's github")](https://github.com/LyleT)  |   [![linkedin logo](https://github.com/chingu-voyages/v42-toucans-team-02/images/linkedin.png "Lyle's LinkedIn")](https://www.linkedin.com/in/lyle-trethewey/)
-Gillian Trethewey  |  [![git hub logo](https://github.com/chingu-voyages/v42-toucans-team-02/images/github.png "Gillian's github")](https://github.com/GillianTrethewey)  |   [![linkedin logo](https://github.com/chingu-voyages/v42-toucans-team-02/images/linkedin.png "Gillian's LinkedIn")](https://www.linkedin.com/in/gillian-trethewey/)
-Melissa Hernandez  |  [![git hub logo](https://github.com/chingu-voyages/v42-toucans-team-02/images/github.png "Melissa's github")](https://github.com/mmhernandez)  |   [![linkedin logo](https://github.com/chingu-voyages/v42-toucans-team-02/images/linkedin.png "Melissa's LinkedIn")](https://www.linkedin.com/in/melissa-dangelo-hernandez/)
+Lyle Trethewey
+Gillian Trethewey
+Melissa Hernandez
+
