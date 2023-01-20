@@ -1,9 +1,3 @@
-
-
-(Note - include the icons for the stack + team members)
-
---
-
 # Chuck Norris Joke API
 
 ## Overview
