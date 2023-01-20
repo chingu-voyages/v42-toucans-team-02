@@ -56,7 +56,9 @@ From the repo:
 
 
 ## Contributors
-Lyle Trethewey
-Gillian Trethewey
-Melissa Hernandez
-
+This project was completed by a team of front-end and full stack developers.
+The Team |  GitHub  | LinkedIn
+:---:  |  :---:  |  :---:
+Lyle Trethewey  |  [![git hub logo](https://skillicons.dev/icons?i=github "Lyle's GitHub")](https://github.com/LyleT)  |   [![linkedin logo](https://skillicons.dev/icons?i=linkedin "Lyle's LinkedIn")](https://www.linkedin.com/in/lyle-trethewey/)
+Gillian Trethewey  |  [![git hub logo](https://skillicons.dev/icons?i=github "Gillian's GitHub")](https://github.com/GillianTrethewey)  |   [![linkedin logo](https://skillicons.dev/icons?i=linkedin "Gillian's LinkedIn")](https://www.linkedin.com/in/gillian-trethewey/)
+Melissa Hernandez  |  [![git hub logo](https://skillicons.dev/icons?i=github "Melissa's GitHub")](https://github.com/mmhernandez)  |   [![linkedin logo](https://skillicons.dev/icons?i=linkedin "Melissa's LinkedIn")](https://www.linkedin.com/in/melissa-dangelo-hernandez/)
