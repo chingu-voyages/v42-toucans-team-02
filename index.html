@@ -46,8 +46,8 @@
         </div>
         <div class="search-container">
           <div class="search-left">
+            <label for="category">By Category</label>
             <div class="search-category" id="by-category">
-              <label for="category">Category: </label>
               <select name="category" id="category">
                 <option value="all">all</option>
                 <option value="animal">animal</option>
@@ -64,15 +64,16 @@
                 <option value="sport">sport</option>
                 <option value="travel">travel</option>
               </select>
+              <button class="search-button" id="generate">Get Joke</button>
             </div>
-            <button class="search-button" id="generate">Get Joke</button>
           </div>
+          <div class="middle_separator"></div>
           <div class="search-right">
+            <label for="keyword">By Keyword</label>
             <div class="search-keyword" id="by-keyword">
-              <label for="keyword">Keyword: </label>
-              <input name="keyword" id="keyword" placeholder="keyword" />
+              <input name="keyword" id="keyword"/>
+              <button class="search-button" id="generate">Get Joke</button>
             </div>
-            <button class="search-button" id="generate">Get Joke</button>
           </div>
         </div>
         <div class="search-bottom">

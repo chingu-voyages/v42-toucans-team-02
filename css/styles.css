@@ -28,6 +28,7 @@ h4,
 h5,
 h6,
 p,
+label,
 ul,
 li,
 figcaption {
@@ -202,11 +203,12 @@ figure.chuck-container {
 }
 
 .search-title {
-  margin-bottom: 5px;
-  margin-top: 10px;
+  margin-bottom: 3rem;
+  margin-top: 0.7rem;
   animation-name: animation;
   animation-duration: 5s;
 }
+
 .search-container {
   display: flex;
   justify-content: space-around;
@@ -217,30 +219,57 @@ figure.chuck-container {
   padding-left: 25px;
   padding-bottom: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.search-category {
+.search-category, .search-keyword {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 0.8rem;
 }
 
-select {
-  border: 1px solid black;
+#category {
+  line-height: 1.5rem;
+  background-image:
+    linear-gradient(45deg, transparent 50%, gray 50%),
+    linear-gradient(135deg, gray 50%, transparent 50%),
+    linear-gradient(to right, #ccc, #ccc);
+  background-position:
+    calc(100% - 20px) calc(1em + 2px),
+    calc(100% - 15px) calc(1em + 2px),
+    calc(100% - 2.5em) 0.5em;
+  background-size:
+    5px 5px,
+    5px 5px,
+    1px 1.5em;
+  background-repeat: no-repeat;
+}
+
+select, input {
+  border: 1px solid rgba(0, 0, 0, 0.65);
+  border-radius: 0.2em;
+  padding: 2px 5px;
+  width: 185px;
+  height: 40px;
+}
+
+.middle_separator {
+  background-color: rgb(161, 98, 39);
+  width: 3px;
+  height: 120px;
+  margin: 0px 10px;
 }
 
 .search-right {
   padding-right: 25px;
   padding-bottom: 0;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-input {
-  border: 1px solid black;
 }
 
 .search-bottom {
@@ -269,10 +298,12 @@ input {
 #search .search-right span {
   font-weight: 600;
 }
+
 #search .search-left,
 #search .search-right {
   padding: 1rem;
 }
+
 #search p {
   color: var(--muted-text);
   font-size: 1.25rem;
@@ -292,6 +323,7 @@ input {
   text-align: center;
   font-size: 3rem;
 }
+
 /*
 ************** FEATURES **************
 */
@@ -358,8 +390,9 @@ figure figcaption {
 
 .socials {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  gap: 0.7rem;
   height: 80px;
   padding: 0;
   margin: 0;
@@ -507,5 +540,25 @@ button#scroll-to-top img {
   }
   .about-container {
     flex-direction: column;
+  }
+}
+
+@media (max-width: 839px) {
+  .search-keyword, .search-category {
+    flex-direction: column;
+  }
+  label {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 877px) {
+  .description {
+    height: 175px;
+  }
+  figure figcaption {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
 }
