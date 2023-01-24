@@ -38,6 +38,7 @@
             />
           </figure>
         </div>
+        <p class="disclaimer">May produce offensive jokes.</p>
       </section>
 
       <section id="search">
@@ -48,8 +49,7 @@
           <div class="search-left">
             <label for="category">By Category</label>
             <div class="search-category" id="by-category">
-              <select name="category" id="category">
-                <option value="all">all</option>
+              <select name="category" id="joke-categories">
                 <option value="animal">animal</option>
                 <option value="career">career</option>
                 <option value="dev">dev</option>
@@ -64,21 +64,31 @@
                 <option value="sport">sport</option>
                 <option value="travel">travel</option>
               </select>
-              <button class="search-button" id="generate">Get Joke</button>
+              <span class="select-arrow">▼</span>
+              <button class="search-button" id="submit-button" type="button">
+                Joke
+              </button>
             </div>
           </div>
-          <div class="middle_separator"></div>
+          <div class="middle-separator"></div>
           <div class="search-right">
             <label for="keyword">By Keyword</label>
+
             <div class="search-keyword" id="by-keyword">
-              <input name="keyword" id="keyword"/>
-              <button class="search-button" id="generate">Get Joke</button>
+              <input
+                type="text"
+                id="search-keyword"
+                placeholder="Enter a keyword"
+              />
+              <button type="button" class="search-button" id="search-button">
+                Joke
+              </button>
             </div>
           </div>
         </div>
-        <div class="search-bottom">
+        <div class="search-bottom" id="joke-container">
           <p class="joke-display">
-            "Chuck Norris doesn't eat limes. He eats limestone."
+            Chuck Norris doesn't eat limes. He eats limestone.
           </p>
         </div>
       </section>
@@ -94,19 +104,19 @@
             <figure class="info-1">
               <img src="./images/cowboy-hat.png" />
               <figcaption class="description">
-                <p>Melissa Hernandez</p>
+                <p>
+                  Melissa<br />
+                  Hernandez
+                </p>
                 <div class="socials">
-                  <p>
-                    <a href="https://github.com/mmhernandez"
-                      ><img class="social-icon" src="./images/github.png"
-                    /></a>
-                  </p>
-                  <p>
-                    <a
-                      href="https://www.linkedin.com/in/melissa-dangelo-hernandez/"
-                      ><img class="social-icon" src="./images/linkedin.png"
-                    /></a>
-                  </p>
+                  <a href="https://github.com/mmhernandez"
+                    ><img class="social-icon" src="./images/github.png"
+                  /></a>
+
+                  <a
+                    href="https://www.linkedin.com/in/melissa-dangelo-hernandez/"
+                    ><img class="social-icon" src="./images/linkedin.png"
+                  /></a>
                 </div>
               </figcaption>
             </figure>
@@ -114,18 +124,15 @@
             <figure class="info-2">
               <img src="./images/cowboy-hat.png" alt="" />
               <figcaption class="description">
-                <p>Lyle Trethewey</p>
+                <p>Lyle<br />Trethewey</p>
                 <div class="socials">
-                  <p>
-                    <a href="https://github.com/LyleT"
-                      ><img class="social-icon" src="./images/github.png"
-                    /></a>
-                  </p>
-                  <p>
-                    <a href="https://www.linkedin.com/in/lyle-trethewey/"
-                      ><img class="social-icon" src="./images/linkedin.png"
-                    /></a>
-                  </p>
+                  <a href="https://github.com/LyleT"
+                    ><img class="social-icon" src="./images/github.png"
+                  /></a>
+
+                  <a href="https://www.linkedin.com/in/lyle-trethewey/"
+                    ><img class="social-icon" src="./images/linkedin.png"
+                  /></a>
                 </div>
               </figcaption>
             </figure>
@@ -133,18 +140,18 @@
             <figure class="info-3">
               <img src="./images/cowboy-hat.png" alt="" />
               <figcaption class="description">
-                <p>Gillian Trethewey</p>
+                <p>
+                  Gillian<br />
+                  Trethewey
+                </p>
                 <div class="socials">
-                  <p>
-                    <a href="https://github.com/GillianTrethewey"
-                      ><img class="social-icon" src="./images/github.png"
-                    /></a>
-                  </p>
-                  <p>
-                    <a href="https://www.linkedin.com/in/gillian-trethewey/"
-                      ><img class="social-icon" src="./images/linkedin.png"
-                    /></a>
-                  </p>
+                  <a href="https://github.com/GillianTrethewey"
+                    ><img class="social-icon" src="./images/github.png"
+                  /></a>
+
+                  <a href="https://www.linkedin.com/in/gillian-trethewey/"
+                    ><img class="social-icon" src="./images/linkedin.png"
+                  /></a>
                 </div>
               </figcaption>
             </figure>
