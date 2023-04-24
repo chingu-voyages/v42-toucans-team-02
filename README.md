@@ -5,6 +5,11 @@
 This project was completed by a team of front-end and full-stack developers using Agile methodologies and CI/CD approach. 
 
 Welcome to the Chuck Norris Joke Project!
+![Screenshot 2023-04-24 at 11 43 57 AM](https://user-images.githubusercontent.com/7611178/234048831-91b2e226-3457-4e53-beb5-9d98a49188e0.jpg)
+![Screenshot 2023-04-24 at 11 44 13 AM](https://user-images.githubusercontent.com/7611178/234048844-c9c7d412-156b-4ffd-90d3-d5b9bedb02f6.jpg)
+![Screenshot 2023-04-24 at 11 44 36 AM](https://user-images.githubusercontent.com/7611178/234048860-5f512197-11da-4469-9dae-338ad8530409.jpg)
+
+
 
 This project is a single page HTML and vanilla JavaScript application that displays Chuck Norris jokes. The application features a category button and a search button for users to easily filter the jokes viewed.
 
